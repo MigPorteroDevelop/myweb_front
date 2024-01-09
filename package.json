@@ -1,0 +1,32 @@
+{
+  "name": "mst-website",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
+    "and": "^0.0.3",
+    "axios": "^1.4.0",
+    "latest": "^0.2.0",
+    "nanoid": "^4.0.0",
+    "primevue": "^3.46.0",
+    "swiper": "^8.4.7",
+    "vue": "^3.2.41",
+    "vue-axios": "^3.5.2",
+    "vue-cookies": "^1.8.2",
+    "vue-i18n": "^9.2.2",
+    "vue-recaptcha": "^2.0.3",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.1.8"
+  }
+}

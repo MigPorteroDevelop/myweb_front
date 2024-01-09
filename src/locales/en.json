@@ -1,0 +1,140 @@
+{
+  "home": {
+    "miguel": "Developer",
+    "freuen": "E-mail: ",
+    "oder": "Number: ",
+    "partners": "Programming is the art of telling another human being what you want the computer to do.",
+    "email": "Your E-mail",
+    "message": "Your message",
+    "send": "Send"
+  },
+  "fullService": {
+    "edv": "I am",
+    "edvP": "people",
+    "dokumentation": "Professional experience",
+    "dokumentationP": "Studies",
+    "möblierung": "Medien-Systemtechnik is a one-stop technology provider for congresses, conferences, trade fairs and events. With us you will find all the technical resources you need for innovative presentations.",
+    "möblierungP": "Front End Development with Vue and javascript."
+  },
+  "verkauf": {
+    "verkaufView": "Use of Tailwind for CSS styles in Vue.",
+    "verkaufView2": "Back End development with Laravel 9.0 and PHP 8.0 (creation of models, controllers, router and migrations)."
+  },
+  "vermietung": {
+    "vermietungView": "Branch work with GitHub.",
+    "vermietungView2": "Creation and maintenance of web pages in wordpress, using elementor and colibri.",
+    "vermietungView3": "Publication of press releases.",
+    "vermietungView4": "Creation of forms with jotform.",
+    "vermietungView5": "Monitoring of online events.",
+    "vermietungView6": "Updating databases in excel.",
+    "vermietungView7": "Sendinblue.",
+    "vermietungView8": "Front-end developer in a team of programmers.",
+    "vermietungView9": "Modifications on the company's website:"
+  },
+  "smartHome": {
+    "smartHomeView": "HTML5, CSS3, Bootstrap and JavaScript in Visual Studio Code.",
+    "smartHomeView2": "Gitlab to control modifications and contributions to the web."
+  },
+  "streaming": {
+    "streamingView": "Scrum work methodology, with which I developed my ability to adopt new changes and requirements during a project, give accurate feedbacks and develop autonomy and responsibility.",
+    
+    "streamingView2": "Higher Degree in web development, here I was able to take the base and settle the programming knowledge to perform the bootcamp.",
+    "streamingView3": "Computer systems.",
+    "streamingView4": "Databases.",
+    "streamingView5": "Programming."
+  },
+  "impressum": {
+    "anschrift": "Branding languages and information management.",
+    "kontaktdaten": "Development environments.",
+    "telefon": "Web development in client environment.",
+    "geschäftsführer": "Web development in server environment.",
+    "umsatzsteuer": "Web interface design.",
+    "inhaltlich": "Training and job orientation.",
+    "konzeption": "Business and entrepreneurship.",
+    
+    "streitschlichtung": "Relational and non-relational databases, such as SQL and MongoDB.",
+    "streitschlichtung2": "PHP with Symfony and Docker.",
+    "streitschlichtung3": "Development of soft skills.",
+
+    "streitschlichtung4": "My Resume",
+
+    "streitschlichtung5": "Who am I",
+    
+    "haftungInhalte": "I am passionate about web development, and I am focused on learning Front-end, which is where I want to dedicate the next few years of my life.",
+    "haftungInhalte2": "I have experience in JS, VueJS, Laravel, WordPress, and other front-end technologies, although I am focused and want to continue using my current favorite stack: VueJS and Tailwind CSS.",
+    "haftungInhalte3": "I have completed a 2-year professional training program as a web developer, and I have also participated in a bootcamp to expand my knowledge. Although I still have a long way to go, I am currently learning on my own every day and taking classes with a senior developer twice a week.",
+    
+    "haftungLink": "Contact form",
+
+    "haftungLink2": "Contact me",
+    
+    "haftungLink3": "You can contact me using the form below. Or you can find me in the following means of contact.",
+    
+    "urheberrecht": "Copyright",
+    "urheberrecht2": "The content and works created by the site operators on these pages are subject to German copyright law. The reproduction, editing, distribution and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use.",
+    "urheberrecht3": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehgend entfernen."
+  },
+  "cookies": {
+    "oktober": "''This Cookie Policy was last updated on 31st October de 2023 and applies to citizens and permanent residents of the European Economic Area and Switzerland''",
+    "einfürung": "Introduction",
+    "einfürung2": "Our website, https://mst-extra.net (hereinafter:''The Website'') uses cookies and similar technologies (for convenience, all of these are collectively referred to as ''cookies''). Cookies are also placed by third parties contracted by us. In the document below we inform you about the use of cookies on our website.",
+    "was": "What are cookies?",
+    "was2": "A cookie is a simple small file that can be sent together with the pages of an Internet address and stored by the web browser on the PC or other device. The information stored in it may be sent to our servers or the servers of relevant third parties during subsequent visits.",
+    "skripte": "What are scripts?",
+    "skripte2": "A script is a piece of program code used to provide functionality and interactivity to our website. This code is executed on our servers or on your device.",
+    "cookies": "Technical or functional cookies. Some cookies ensure that parts of our website work properly and keep your user preferences known. By placing functional cookies, we make it easier for you to visit our website. This way, you do not have to repeatedly enter the same information when visiting our website, or your items remain in your shopping cart until you pay, for example. We may place these cookies without your consent.",
+    "platzierte": "Placed cookies",
+    "zustimmung": "Consent",
+    "zustimmung2": "When you visit our website for the first time, we will show you a pop-up with an explanation about cookies. Once you click on ''Save setting'', you give us your consent to use all the categories of cookies and plugins you have chosen as described in this cookie statement. You can disable the use of cookies through your browser, but please note that our website may not function properly if you do so.",
+    "zustimmung3": "Manage your consent settings. Technical storage or access is strictly necessary for the lawful purpose of enabling the use of a particular service expressly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a message over an electronic communications network.",
+    "aktivierung": "Activation/deactivation and deletion of cookies",
+    "aktivierung2": "You can use your internet browser to automatically or manually delete cookies. You can also specify whether specific cookies should not be placed. Another option is to set your Internet browser to notify you each time a cookie is placed. For more information about these options, see the instructions in the help section of your browser.",
+    "aktivierung3": "Please note that our website may not function properly if all cookies are disabled. If you delete the cookies in your browser, they will be placed again when you visit our website.",
+    "rechte": "Your rights regarding personal data",
+    "rechte2": "You have the following rights with respect to your personal information:",
+    "rechte3": "You have the right to know why your personal information is needed, what happens to it, and how long it is kept.",
+    "rechte4": "Right of access: You have the right to access your personal data known to us.",
+    "rechte5": "Right to rectification: You have the right whenever you wish to amend, correct, and have your personal information deleted or blocked.",
+    "rechte6": "If you have given us your consent to process your data, you have the right to withdraw this consent and have your personal data deleted.",
+    "rechte7": "Right to transfer your data: You have the right to request all of your personal data from one controller and transfer it in its entirety to another controller.",
+    "rechte8": "Right to object: You can object to the processing of your data. We will comply with this unless there are legitimate grounds for the processing.",
+    "rechte9": "To exercise these rights, please contact us. Please refer to the contact details at the end of this Cookie Policy. If you have a complaint about how we handle your data, we would like to hear it, but you also have the right to address it to the supervisory authority (the Data Protection Authority).",
+    "cookieKontakt": "Contact",
+    "cookieKontaktdaten": "For questions and/or comments about our cookie policy and this statement, please contact us using the contact information below:"
+  },
+  "buttons": {
+    "verkauf": "Who am I",
+    "vermietung": "Resume",
+    "kontakt": "Contact",
+    "impressum": "Imprint",
+    "cookieRichtline": "Cookie policy (EU)"
+  },
+  "header": {
+    "verkaufH": "Sale",
+    "vermietungH": "Rental"
+  },
+  "footer": {
+    "philosophy": "We are a company that develops its activity in the service sector, we are mainly dedicated to the design and production of scenes, audiovisual products, music and events that involve a multitude of human and technological factors that must be combined efficiently to obtain a product of excellent quality."
+  },
+  "underConstruction": {
+    "coomingSoon": "Cooming soon",
+    "working": "We are working on our website. Stay stuned for some exciting updates."
+  },
+  "404": {
+    "error": "Error 404 - The page was not found",
+    "errorB": "Back to the Home"
+  },
+  "recaptcha": {
+    "r1": "Please complete the reCaptcha."
+  },
+  "cookiesModal": {
+    "ver": "Manage Cookie Consent",
+    "pCoo": "In order to provide you with an optimal experience, we use technologies such as cookies to store and/or access device information. If you consent to these technologies, we may process data such as browsing behavior or unique IDs on this website. If you do not give or withdraw your consent, certain features and functions may be affected.",
+    "ak": "Accept",
+    "ab": "Reject",
+    "richt": "Cookie Policy"
+  },
+  "presentation": {
+    "miguel1": "Hallo1"
+  }
+}

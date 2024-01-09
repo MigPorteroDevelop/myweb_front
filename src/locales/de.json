@@ -1,0 +1,137 @@
+{
+  "home": {
+    "miguel": "Entwickler",
+    "freuen": "E-mail: ",
+    "oder": "Nummer: ",
+    "partners": "Programmieren ist die Kunst, einem anderen Menschen zu sagen, was der Computer tun soll.",
+    "email": "Ihre E-Mail",
+    "message": "Ihre Nachricht",
+    "send": "Schicken"
+  },
+  "fullService": {
+    "edv": "Ich bin",
+    "edvP": "Leute",
+    "dokumentation": "Berufserfahrung",
+    "dokumentationP": "Studium",
+    "möblierung": "Medien-Systemtechnik ist ein Full-Service-Anbieter von Technik für Kongresse, Tagungen, Messen und Events. Bei uns finden Sie alle technischen Ressourcen, die Sie für innovative Präsentationen benötigen.",
+    "möblierungP": "Front End Entwicklung mit Vue und Javascript."
+  },
+  "verkauf": {
+    "verkaufView": "Verwendung von Tailwind für CSS-Stile in Vue.",
+    "verkaufView2": "Back End Entwicklung mit Laravel 9.0 und PHP 8.0 (Erstellung von Models, Controllern, Routern und Migrationen)."
+  },
+  "vermietung": {
+    "vermietungView": "Branch-Arbeit mit GitHub.",
+    "vermietungView2": "Erstellung und Pflege von Wordpress-Websites unter Verwendung von Elementor und Colibri.",
+    "vermietungView3": "Publikation von Pressemitteilungen.",
+    "vermietungView4": "Erstellung von Formularen mit Jotform.",
+    "vermietungView5": "Überwachung von Online-Veranstaltungen.",
+    "vermietungView6": "Aktualisierung von Datenbanken in Excel.",
+    "vermietungView7": "Sendinblue.",
+    "vermietungView8": "Front-End-Entwickler in einem Team von Programmierern.",
+    "vermietungView9": "Änderungen an der Website des Unternehmens:"
+  },
+  "smartHome": {
+    "smartHomeView": "HTML5, CSS3, Bootstrap und JavaScript in Visual Studio Code.",
+    "smartHomeView2": "Gitlab zur Kontrolle der Änderungen und Beiträge an der Website."
+  },
+  "streaming": {
+    "streamingView": "Scrum-Arbeitsmethodik, mit der ich meine Fähigkeit entwickelt habe, neue Änderungen und Anforderungen während eines Projekts anzunehmen, genaue Rückmeldungen zu geben und Autonomie und Verantwortung zu entwickeln.",
+    
+    "streamingView2": "Höherer Abschluss in Webentwicklung, bei dem ich die Grundlagen erworben und mein Programmierwissen zur Vorbereitung auf das Bootcamp gefestigt habe.",
+    "streamingView3": "Computersysteme.",
+    "streamingView4": "Datenbanken.",
+    "streamingView5": "Programmierung."
+  },
+  "impressum": {
+    "anschrift": "Auszeichnungssprachen und Informationsmanagement.",
+    "kontaktdaten": "Entwicklungsumgebungen.",
+    "telefon": "Webentwicklung in Client-Umgebungen.",
+    "geschäftsführer": "Webentwicklung in Server-Umgebungen.",
+    "umsatzsteuer": "Web-Schnittstellendesign.",
+    "inhaltlich": "Berufs- und Karriereberatung.",
+    "konzeption": "Geschäftliche und unternehmerische Initiative.",
+
+    "streitschlichtung": "Relationale und nicht-relationale Datenbanken wie SQL und MongoDB",
+    "streitschlichtung2": "PHP mit Symfony und Docker",
+    "streitschlichtung3": "Entwicklung von ¨Soft Skills¨.",
+
+    "streitschlichtung4": "Mein Lebenslauf",
+
+    "streitschlichtung5": "Wer ich bin",
+    
+    "haftungInhalte": "Ich bin leidenschaftlich für Webentwicklung und konzentriere mich darauf, Front-End zu lernen, wo ich die nächsten Jahre meines Lebens widmen möchte.",
+    "haftungInhalte2": "Ich habe Erfahrung in JS, VueJS, Laravel, WordPress und anderen Front-End-Technologien, obwohl ich fokussiert bin und weiterhin meinen aktuellen Lieblings-Stack verwenden möchte: VueJS und Tailwind CSS.",
+    "haftungInhalte3": "Ich habe eine 2-jährige berufliche Ausbildung als Webentwickler absolviert und habe auch an einem Bootcamp teilgenommen, um mein Wissen zu erweitern. Obwohl ich noch einen langen Weg vor mir habe, lerne ich derzeit jeden Tag selbstständig und nehme zweimal pro Woche Unterricht bei einem Senior Entwickler.",
+    
+    "haftungLink": "Kontakt Formular",
+
+    "haftungLink2": "Kontaktieren Sie mich",
+    
+    "haftungLink3": "Sie können mich über das unten stehende Formular kontaktieren. Oder Sie können mich über die folgenden Kontaktmöglichkeiten finden.",
+    
+    "urheberrecht": "Urheberrecht",
+    "urheberrecht2": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+    "urheberrecht3": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehgend entfernen."
+  },
+  "cookies": {
+    "oktober": "''Diese Cookie-Richtlinie wurde zuletzt am 31.Oktober de 2023 aktualisiert und gilt für Bürger und Einwohner mit ständigem Wohnsitz im Europäischen Wirtschaftsraum und der Schweiz''",
+    "einfürung": "Einführung",
+    "einfürung2": "Unsere Website, https://mst-extra.net (im folgenden: „Die Website“) verwendet Cookies und ähnliche Technologien (der Einfachheit halber werden all diese unter „Cookies“ zusammengefasst). Cookies werden außerdem von uns beauftragten Drittparteien platziert. In dem unten stehendem Dokument informieren wir dich über die Verwendung von Cookies auf unserer Website.",
+    "was": "Was sind Cookies?",
+    "was2": "Ein Cookie ist eine einfache kleine Datei, die gemeinsam mit den Seiten einer Internetadresse versendet und vom Webbrowser auf dem PC oder einem anderen Gerät gespeichert werden kann. Die darin gespeicherten Informationen können während folgender Besuche zu unseren oder den Servern relevanter Drittanbieter gesendet werden.",
+    "skripte": "Was sind Skripte?",
+    "skripte2": "Ein Script ist ein Stück Programmcode, das benutzt wird, um unserer Website Funktionalität und Interaktivität zu ermöglichen. Dieser Code wird auf unseren Servern oder auf deinem Gerät ausgeführt.",
+    "cookies": "Technische oder funktionelle Cookies. Einige Cookies stellen sicher, dass Teile unserer Website richtig funktionieren und deine Nutzervorlieben bekannt bleiben. Durch das Platzieren funktionaler Cookies machen wir es dir einfacher unsere Website zu besuchen. Auf diese Weise musst du bei Besuchen unserer Website nicht wiederholt die gleichen Informationen eingeben, oder deine Gegenstände bleiben beispielsweise in deinem Warenkorb bis du bezahlst. Wir können diese Cookies ohne dein Einverständnis platzieren.",
+    "platzierte": "Platzierte Cookies",
+    "zustimmung": "Zustimmung",
+    "zustimmung2": "Wenn du unsere Website das erste Mal besuchst, zeigen wir dir ein Pop-Up mit einer Erklärung über Cookies. Sobald du auf „Einstellungen speichern“ klickst, gibst du uns dein Einverständnis, alle von dir gewählten Kategorien von Cookies und Plugins wie in dieser Cookie-Erklärung beschrieben zu verwenden. Du kannst die Verwendung von Cookies über deinen Browser deaktivieren, aber bitte beachte, dass unsere Website dann unter Umständen nicht richtig funktioniert.",
+    "zustimmung3": "Verwalte deine Zustimmungseinstellungen. Die technische Speicherung oder der Zugang ist unbedingt erforderlich für den rechtmäßigen Zweck, die Nutzung eines bestimmten Dienstes zu ermöglichen, der vom Teilnehmer oder Nutzer ausdrücklich gewünscht wird, oder für den alleinigen Zweck, die Übertragung einer Nachricht über ein elektronisches Kommunikationsnetz durchzuführen.",
+    "aktivierung": "Aktivierung/Deaktivierung und Löschen von Cookies",
+    "aktivierung2": "Du kannst deinen Internetbrowser verwenden um automatisch oder manuell Cookies zu löschen. Du kannst außerdem spezifizieren ob spezielle Cookies nicht platziert werden sollen. Eine andere Möglichkeit ist es deinen Internetbrowser derart einzurichten, dass du jedes Mal benachrichtigt wirst, wenn ein Cookie platziert wird. Für weitere Information über diese Möglichkeiten beachte die Anweisungen in der Hilfesektion deines Browsers.",
+    "aktivierung3": "Bitte nimm zur Kentniss, dass unsere Website möglicherweise nicht richtig funktioniert wenn alle Cookies deaktiviert sind. Wenn du die Cookies in deinem Browser löscht, werden diese neuplatziert wenn du unsere Website erneut besuchst.",
+    "rechte": "Deine Rechte in Bezug auf persönliche Daten",
+    "rechte2": "Du hast in Bezug auf deine persönlichen Daten die folgenden Rechte:",
+    "rechte3": "Du hast das Recht zu wissen, warum deine persönlichen Daten gebraucht werden, was mit ihnen passiert und wie lange diese verwahrt werden.",
+    "rechte4": "Zugriffsrecht: Du hast das Recht deine uns bekannten persönliche Daten einzusehen.",
+    "rechte5": "Recht auf Berichtigung: Du hast das Recht wann immer du wünscht, deine persönlichen Daten zu ergänzen, zu korrigieren sowie gelöscht oder blockiert zu bekommen.",
+    "rechte6": "Wenn du uns dein Einverständnis zur Verarbeitung deiner Daten gegeben hast, hast du das Recht dieses Einverständnis zu widerrufen und deine persönlichen Daten löschen zu lassen.",
+    "rechte7": "Recht auf Datentransfer deiner Daten: Du hast das Recht, alle deine persönlichen Daten von einem Kontrolleur anzufordern und in ihrer Gesamtheit zu einem anderen Kontrolleur zu transferieren.",
+    "rechte8": "Widerspruchsrecht: Du kannst der Verarbeitung deiner Daten widersprechen. Wir entsprechen dem, es sei denn es gibt berechtigte Gründe für die Verarbeitung.",
+    "rechte9": "Um diese Rechte auszuüben kontaktiere uns bitte. Bitte beziehe dich auf die Kontaktdaten am Ende dieser Cookie-Erklärung. Wenn du eine Beschwerde darüber hast, wie wir deine Daten behandeln, würden wir diese gerne hören, aber du hast auch das Recht diese an die Aufsichtsbehörde (der Datenschutzbehörde) zu richten.",
+    "cookieKontakt": "Kontakt",
+    "cookieKontaktdaten": "Für Fragen und/oder Kommentare über unsere Cookie-Richtlinien und diese Aussage kontaktiere uns bitte mittels der folgenden Kontaktdaten:"
+  },
+  "buttons": {
+    "verkauf": "Wer ich bin",
+    "vermietung": "Lebenslauf",
+    "kontakt": "Kontakt",
+    "impressum": "Impressum",
+    "cookieRichtline": "Cookie Richtline (EU)"
+  },
+  "header": {
+    "verkaufH": "Verkauf",
+    "vermietungH": "Vermietung"
+  },
+  "footer": {
+    "philosophy": "Wir sind ein Unternehmen, das seine Tätigkeit im Dienstleistungssektor entwickelt, wir widmen uns hauptsächlich der Gestaltung und Produktion von Szenen, audiovisuellen Produkten, Musik und Veranstaltungen, bei denen eine Vielzahl menschlicher und technologischer Faktoren beteiligt sind, die effizient kombiniert werden müssen erhalten Sie ein Produkt von ausgezeichneter Qualität."
+  },
+  "underConstruction": {
+    "coomingSoon": "Demnächst",
+    "working": "Wir arbeiten an unserer Website. Bleiben Sie dran für einige aufregende Updates."
+  },
+  "404": {
+    "error": "Fehler 404 - Die Seite wurde nicht gefunden",
+    "errorB": "Zurück nach Home"
+  },
+  "recaptcha": {
+    "r1": "Bitte füllen Sie das reCaptcha aus."
+  },
+  "cookiesModal": {
+    "ver": "Cookie-Zustimmung verwalten",
+    "pCoo": "Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.",
+    "ak": "Akceptieren",
+    "ab": "Ablehnen",
+    "richt": "Cookie-Richtlinie"
+  }
+}
