@@ -3,13 +3,17 @@ import HowI from "../../components/app/HowI.vue";
 import Principal from "../../components/app/Principal.vue";
 import Contact from "../../components/app/Contact.vue";
 import TabTime from "../../components/app/TabTime.vue";
+import MyStack from "../../components/app/MyStack.vue";
+
+MyStack
 
 export default {
   components: {
     HowI,
     Principal,
     Contact,
-    TabTime
+    TabTime,
+    MyStack
   }
 };
 </script>
@@ -21,6 +25,8 @@ export default {
     <HowI />
 
     <TabTime />
+
+    <MyStack />
 
     <Contact />
   </div>

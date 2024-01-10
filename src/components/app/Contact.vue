@@ -34,8 +34,8 @@ export default {
 
 <template>
   <div class="bg-light_blue">
-    <div class="flex sm:flex-row justify-between sm:p-28 flex-col p-10">
-      <div class="sm:w-2/4">
+    <div class="flex sm:flex-row justify-between align-center sm:p-28 flex-col">
+      <div class="px-12 sm:w-2/4">
         <h1 class="
     text-blue
     text-center
@@ -63,7 +63,7 @@ export default {
         </ul>
 
       </div>
-      <div class="py-6 sm:w-1/3">
+      <div class="px-12 py-6 sm:w-1/3">
         <!--FORM-->
         <form @submit.prevent="processForm" method="POST" class="space-y-4">
           <Input :task="task" />

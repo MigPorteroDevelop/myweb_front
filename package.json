@@ -9,6 +9,7 @@
   "dependencies": {
     "@splidejs/vue-splide": "^0.6.12",
     "and": "^0.0.3",
+    "atropos": "^2.0.2",
     "axios": "^1.4.0",
     "latest": "^0.2.0",
     "nanoid": "^4.0.0",
