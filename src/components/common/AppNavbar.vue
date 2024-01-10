@@ -9,15 +9,15 @@ const navigation =
   [
     {
       name: "buttons.verkauf",
-      route: "/HowI",
+      route: "/howi",
     },
     {
       name: "buttons.vermietung",
-      route: "/rental",
+      route: "/lebenslauf",
     },
     {
       name: "buttons.kontakt",
-      route: "/rental",
+      route: "/kontakt",
     }
   ];
 const showMobileMenu = ref(true);

@@ -7,8 +7,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        partners: "url('././public/images/General/klaviatur-dark.jpg')",
-        contact: "url('././public/images/General/contact.jpg')"
       }
     },
     colors: {

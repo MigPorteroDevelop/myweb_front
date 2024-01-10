@@ -1,5 +1,4 @@
 <script>
-import AboutMe from "../../components/app/AboutMe.vue";
 import HowI from "../../components/app/HowI.vue";
 import Principal from "../../components/app/Principal.vue";
 import Contact from "../../components/app/Contact.vue";
@@ -7,7 +6,6 @@ import TabTime from "../../components/app/TabTime.vue";
 
 export default {
   components: {
-    AboutMe,
     HowI,
     Principal,
     Contact,
@@ -21,8 +19,6 @@ export default {
     <Principal />
 
     <HowI />
-
-    <AboutMe />
 
     <TabTime />
 

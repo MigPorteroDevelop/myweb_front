@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/Home/HomeIndexView.vue";
 import Streaming from "../views/Streaming/StreamingIndexView.vue";
 import Contact from "../views/Contact/ContactIndexView.vue";
-import CookiePolicy from "../views/CookiePolicy/CookiePolicyIndexView.vue";
 import Error from "../views/Error/ErrorIndexView.vue";
 
 const router = createRouter({
@@ -27,12 +26,7 @@ const router = createRouter({
             path: '/contact',
             name: 'contact',
             component: Contact
-        },
-        {
-            path: '/cookiePolicy',
-            name: 'cookiePolicy',
-            component: CookiePolicy
-        },
+        }
         {
             path: '/:pathMatch(.*)*',
             name: 'notFound',

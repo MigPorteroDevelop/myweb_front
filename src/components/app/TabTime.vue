@@ -8,7 +8,7 @@ import TabPanel from 'primevue/tabpanel';
 
 <template>
     <h1 class="
-      pt-10
+      py-10
       text-center
       font-bold
       text-3xl
@@ -17,8 +17,10 @@ import TabPanel from 'primevue/tabpanel';
         {{ $t("impressum.streitschlichtung4") }}
     </h1>
     <TabView v-model:activeIndex="active">
-        <TabPanel :header="$t('fullService.dokumentation')">
-            <div class="flex items-center justify-center h-full">
+        <TabPanel :header="$t('fullService.dokumentation')" :pt="{
+            header: { class: 'cursor-pointer text-center text-lg text-blue tracking-wide pb-2' }
+        }">
+            <div class="flex items-center justify-center h-full px-4">
                 <ol class="border-l border-blue">
                     <!--First item-->
                     <li>
@@ -124,7 +126,9 @@ import TabPanel from 'primevue/tabpanel';
                 </ol>
             </div>
         </TabPanel>
-        <TabPanel :header="$t('fullService.dokumentationP')">
+        <TabPanel :header="$t('fullService.dokumentationP')" :pt="{
+            header: { class: 'cursor-pointer text-center text-lg text-blue tracking-wide pb-2' }
+        }">
             <div class="flex items-center justify-center h-full">
                 <ol class="border-l border-blue">
                     <!--First item-->
@@ -208,6 +212,5 @@ import TabPanel from 'primevue/tabpanel';
                 </ol>
             </div>
         </TabPanel>
-
     </TabView>
 </template>
