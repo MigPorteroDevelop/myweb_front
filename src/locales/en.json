@@ -75,9 +75,10 @@
     "urheberrecht3": "German curriculum"
   },
   "cookies": {
-    "oktober": "''This Cookie Policy was last updated on 31st October de 2023 and applies to citizens and permanent residents of the European Economic Area and Switzerland''",
-    "einfürung": "Introduction",
-    "einfürung2": "Our website, https://mst-extra.net (hereinafter:''The Website'') uses cookies and similar technologies (for convenience, all of these are collectively referred to as ''cookies''). Cookies are also placed by third parties contracted by us. In the document below we inform you about the use of cookies on our website.",
+    "oktober": "Preferred technologies",
+    "einfürung": "What I Offer?",
+    "einfürung2": "I have a penchant for experimenting with diverse technologies; however, among them, I have a particular affinity for the following.",
+    
     "was": "What are cookies?",
     "was2": "A cookie is a simple small file that can be sent together with the pages of an Internet address and stored by the web browser on the PC or other device. The information stored in it may be sent to our servers or the servers of relevant third parties during subsequent visits.",
     "skripte": "What are scripts?",

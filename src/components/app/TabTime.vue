@@ -5,12 +5,13 @@ const active = ref(0);
 import TabView from 'primevue/tabview';
 import TabPanel from 'primevue/tabpanel';
 
-import MyStack from "../../components/app/MyStack.vue";
+import CV from "../../components/app/CV.vue";
 </script>
 
 <template>
     <h1 class="
-      py-10
+      pt-24
+      pb-8
       text-center
       font-bold
       text-3xl
@@ -216,5 +217,5 @@ import MyStack from "../../components/app/MyStack.vue";
         </TabPanel>
     </TabView>
 
-    <MyStack />
+    <CV />
 </template>

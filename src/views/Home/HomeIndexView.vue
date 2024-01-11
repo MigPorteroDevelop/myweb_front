@@ -1,25 +1,30 @@
 <script>
-import HowI from "../../components/app/HowI.vue";
+import WhoI from "../../components/app/WhoI.vue";
 import Principal from "../../components/app/Principal.vue";
 import Contact from "../../components/app/Contact.vue";
 import TabTime from "../../components/app/TabTime.vue";
+import MyStack from "../../components/app/MyStack.vue";
 
 export default {
   components: {
-    HowI,
+    WhoI,
     Principal,
     Contact,
     TabTime,
-    
+    MyStack
   }
 };
 </script>
 
-<template id="template">
+<template>
   <div class="object-fit">
     <Principal />
 
-    <HowI />
+    <WhoI />
+
+    <MyStack />
+
+    <hr class="h-px m-auto w-4/5 my-8 bg-blue border-0 dark:bg-gray">
 
     <TabTime />
 

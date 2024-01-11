@@ -3,8 +3,6 @@ import { RouterLink, RouterView } from "vue-router";
 import Navbar from "./components/common/AppNavbar.vue";
 import Footer from "./components/common/AppFooter.vue";
 import TopButton from "./components/common/TopButton.vue";
-import Cookies from "./components/app/Cookies.vue";
-import VueCookies from 'vue-cookies'
 
 export default {
   components: {
@@ -13,8 +11,6 @@ export default {
     TopButton,
     RouterLink,
     RouterView,
-    Cookies,
-    VueCookies
   },
 };
 </script>
