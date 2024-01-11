@@ -4,6 +4,8 @@ const active = ref(0);
 
 import TabView from 'primevue/tabview';
 import TabPanel from 'primevue/tabpanel';
+
+import MyStack from "../../components/app/MyStack.vue";
 </script>
 
 <template>
@@ -213,4 +215,6 @@ import TabPanel from 'primevue/tabpanel';
             </div>
         </TabPanel>
     </TabView>
+
+    <MyStack />
 </template>

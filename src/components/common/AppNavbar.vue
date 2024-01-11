@@ -122,7 +122,7 @@ const showMobileMenu = ref(true);
             transform
             transition
             duration-300
-            hover:text-mst_orange
+            hover:text-blue
                   ">CV</a>
       <div class="
             relative
@@ -146,7 +146,7 @@ const showMobileMenu = ref(true);
              bg-black
              text-black
             border-2
-             border-mst_orange
+             border-blue
             rounded-full
           ">
           <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">

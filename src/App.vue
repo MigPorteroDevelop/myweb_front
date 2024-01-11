@@ -39,9 +39,6 @@ export default {
 
 html,
 body,
-/*#app {
-  font-family: Mofulina;
-}*/
 
 .arrowTop {
   z-index: 100;
