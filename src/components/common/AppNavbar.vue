@@ -9,7 +9,7 @@ const navigation =
   [
     {
       name: "buttons.verkauf",
-      route: "/howi",
+      route: "/weri",
     },
     {
       name: "buttons.vermietung",
@@ -18,6 +18,10 @@ const navigation =
     {
       name: "buttons.kontakt",
       route: "/kontakt",
+    },
+    {
+      name: "buttons.impressum",
+      route: "/projekte",
     }
   ];
 const showMobileMenu = ref(true);

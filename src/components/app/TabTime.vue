@@ -219,3 +219,9 @@ import CV from "../../components/app/CV.vue";
 
     <CV />
 </template>
+
+<style scoped>
+ .p-tabview{
+    background-color: yellowgreen;
+ }
+</style>
