@@ -36,13 +36,13 @@ const showMobileMenu = ref(true);
           <!--menu-->
           <div class="flex md:space-x-1 2xl:space-x-14">
             <!--logo-->
-            
+
             <router-link to="/" @click="showMobileMenu = !showMobileMenu" class="flex items-center space-x-1 px-16 py-5">
               <img src="/images/General/logo.svg" class="h-14 w-14 ml-10 md:block 2xl:h-20 2xl:w-20" />
             </router-link>
 
             <div class="md:w-10 2xl:w-52"></div>
-            
+
             <!--menu-->
             <nav class="hidden items-center 2xl:space-x-1 xl:flex">
               <div v-for="item in navigation" class="
@@ -95,7 +95,7 @@ const showMobileMenu = ref(true);
           </div>
           <!--show mobile menu-->
           <div class="flex items-center xl:hidden">
-            <button @click="showMobileMenu = !showMobileMenu" >
+            <button @click="showMobileMenu = !showMobileMenu">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
                 class="w-8 h-8">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -118,7 +118,8 @@ const showMobileMenu = ref(true);
             duration-300
             hover:text-blue
                 ">
-        <router-link @click="showMobileMenu = !showMobileMenu" :to="item.route">{{ this.$t(item.name) }}</router-link>
+        <a v-if="item.route.includes('#')" :href="item.route">{{ $t(item.name) }}</a>
+        <router-link v-else :to="item.route">{{ this.$t(item.name) }}</router-link>
       </div>
       <a :href="route2" :download="pdf2" class="
           block
