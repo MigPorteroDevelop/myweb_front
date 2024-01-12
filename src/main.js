@@ -7,8 +7,7 @@ import locales from "./locales/locales"
 import VueSplide from '@splidejs/vue-splide';
 import VueCookies from 'vue-cookies';
 import PrimeVue from 'primevue/config';
-import 'atropos/css'
-
+import 'atropos/css';
 import 'primevue/resources/themes/lara-light-green/theme.css';
 import 'primevue/resources/primevue.min.css';
 

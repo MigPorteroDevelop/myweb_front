@@ -37,7 +37,7 @@ const showMobileMenu = ref(true);
           <div class="flex md:space-x-1 2xl:space-x-14">
             <!--logo-->
 
-            <router-link to="/" @click="showMobileMenu = !showMobileMenu" class="flex items-center space-x-1 px-16 py-5">
+            <router-link to="/" class="flex items-center space-x-1 px-16 py-5">
               <img src="/images/General/logo.svg" class="h-14 w-14 ml-10 md:block 2xl:h-20 2xl:w-20" />
             </router-link>
 
