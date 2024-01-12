@@ -116,7 +116,7 @@ const showMobileMenu = ref(true);
             transform
             transition
             duration-300
-            hover:text-mst_orange
+            hover:text-blue
                 ">
         <router-link @click="showMobileMenu = !showMobileMenu" :to="item.route">{{ this.$t(item.name) }}</router-link>
       </div>
@@ -149,7 +149,6 @@ const showMobileMenu = ref(true);
         <select v-model="$i18n.locale" class="
             p-1
             font-medium
-             bg-black
              text-black
             border-2
              border-blue
