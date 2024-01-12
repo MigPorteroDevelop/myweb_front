@@ -9,6 +9,7 @@ import CV from "../../components/app/CV.vue";
 </script>
 
 <template>
+    <div id="lebenslauf" class="container">
     <h1 class="
       pt-24
       pb-8
@@ -218,10 +219,5 @@ import CV from "../../components/app/CV.vue";
     </TabView>
 
     <CV />
+</div>
 </template>
-
-<style scoped>
- .p-tabview{
-    background-color: yellowgreen;
- }
-</style>

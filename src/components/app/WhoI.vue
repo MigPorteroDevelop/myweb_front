@@ -1,5 +1,5 @@
 <template>
-    <div id="howi" class="bg-light_blue">
+    <div id="whoi" class="container bg-light_blue">
         <div class="flex sm:flex-row justify-between sm:p-28 flex-col p-10">
             <div class="sm:w-2/4">
                 <h1 class="

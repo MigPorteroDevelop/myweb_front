@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-light_blue">
+  <div id="kontakt" class="container bg-light_blue">
     <div class="flex sm:flex-row justify-between align-center sm:p-28 flex-col">
       <div class="px-12 sm:w-2/4">
         <h1 class="

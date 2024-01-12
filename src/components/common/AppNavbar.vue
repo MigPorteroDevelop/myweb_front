@@ -9,15 +9,15 @@ const navigation =
   [
     {
       name: "buttons.verkauf",
-      route: "/weri",
+      route: "/#whoi",
     },
     {
       name: "buttons.vermietung",
-      route: "/lebenslauf",
+      route: "/#lebenslauf",
     },
     {
       name: "buttons.kontakt",
-      route: "/kontakt",
+      route: "/#kontakt",
     },
     {
       name: "buttons.impressum",
@@ -36,6 +36,7 @@ const showMobileMenu = ref(true);
           <!--menu-->
           <div class="flex md:space-x-1 2xl:space-x-14">
             <!--logo-->
+            
             <router-link to="/" @click="showMobileMenu = !showMobileMenu" class="flex items-center space-x-1 px-16 py-5">
               <img src="/images/General/logo.svg" class="h-14 w-14 ml-10 md:block 2xl:h-20 2xl:w-20" />
             </router-link>
@@ -54,7 +55,8 @@ const showMobileMenu = ref(true);
                   py-5
                   px-2
                 ">
-                <router-link :to="item.route">{{ this.$t(item.name) }}</router-link>
+                <a v-if="item.route.includes('#')" :href="item.route">{{ $t(item.name) }}</a>
+                <router-link v-else :to="item.route">{{ this.$t(item.name) }}</router-link>
               </div>
 
               <a :href="route2" :download="pdf2" class="
