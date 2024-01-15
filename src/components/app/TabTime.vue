@@ -12,12 +12,14 @@ import CV from "../../components/app/CV.vue";
     <div class="container mx-auto">
         <div id="lebenslauf">
             <h1 class="
-      pt-24
+      pt-32
+      text-blue
       pb-8
       text-center
       font-bold
       text-3xl
-      md:text-5xl
+      sm:pt-32
+      sm:text-5xl
       ">
                 {{ $t("impressum.streitschlichtung4") }}
             </h1>

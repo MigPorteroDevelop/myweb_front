@@ -1,16 +1,16 @@
 <template>
     <div id="whoi" class="bg-light_blue px-16 w-full lg:h-full xl:h-fit">
         <div class="container mx-auto">
-            <div class="flex sm:flex-row justify-between sm:py-28  flex-col">
+            <div class="flex sm:flex-row justify-between py-32 flex-col">
                 <div class="sm:w-2/4">
                     <h1 class="
       text-blue
       text-center
-      sm:text-left
-      py-10
+      pb-10
       font-bold
       text-3xl
-      md:text-7xl
+      sm:text-left
+      sm:text-5xl
       ">
                         {{ $t("impressum.streitschlichtung5") }} <br>
                     </h1>

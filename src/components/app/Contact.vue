@@ -35,17 +35,17 @@ export default {
 <template>
   <div id="kontakt" class="bg-light_blue">
     <div class="container mx-auto">
-      <div class="flex sm:flex-row justify-between align-center sm:p-28 flex-col">
-        <div class="px-12 sm:w-2/4">
+      <div class="flex sm:flex-row justify-between align-center pt-32 sm:p-32 flex-col">
+        <div class="pb-8 px-12 sm:w-2/4">
           <h1 class="
-    text-blue
-    text-center
-    sm:text-left
-    py-10
-    font-bold
-    text-3xl
-    md:text-6xl
-    ">
+            text-blue
+            text-center
+            sm:text-left
+            pb-10
+            font-bold
+            text-3xl
+            sm:text-5xl
+              ">
             {{ $t("impressum.haftungLink2") }} <br>
           </h1>
           <p class="pb-4 text-xl text-center tracking-wide sm:text-left">{{ $t("impressum.haftungLink3") }}</p>

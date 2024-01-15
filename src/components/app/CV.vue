@@ -12,7 +12,7 @@ const route2 = '../../public/documents/CV-EN';
 
 
 <template>
-    <div class="flex flex-col sm:flex-row justify-center items-center space-y-10 sm:space-y-0 sm:space-x-28 py-12">
+    <div class="flex flex-col sm:flex-row justify-center items-center space-y-10 sm:space-y-0 sm:space-x-28 py-32">
         <div class="w-52">
             <atropos-component shadow-scale="0">
                 <img src="/images/flag-EN.png" />
