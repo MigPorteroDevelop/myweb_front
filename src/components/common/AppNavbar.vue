@@ -28,7 +28,7 @@ const showMobileMenu = ref(true);
 </script>
 
 <template>
-  <header class=" sticky top-0 z-50 shadow-sm">
+  <header class="sticky top-0 z-50 shadow-sm">
     <div class="container mx-auto">
     <!--desktop menu-->
     <div class="bg-white">
