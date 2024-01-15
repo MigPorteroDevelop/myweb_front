@@ -7,11 +7,11 @@
 
         <div class="flex flex-wrap justify-center items-center space-y-5 sm:space-y-0 sm:space-x-10 px-12 sm:h-fit">
             <div
-                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl bg-blue rounded-lg hover:text-white transition duration-500 cursor-pointer">
+                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl rounded-lg hover:text-white transition duration-500 cursor-pointer">
 
                 <div class="flex flex-col items-center py-10 ">
-                    <svg class="w-24 h-24 mb-3 bg-white rounded-full shadow-lg" 
-                        viewBox="0 0 256 154" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-24 h-24 mb-3 bg-white rounded-full shadow-lg" viewBox="0 0 256 154"
+                        xmlns="http://www.w3.org/2000/svg">
                         <g transform="matrix(1.3333 0 0 -1.3333 -76.311 313.34)">
                             <g transform="translate(178.06 235.01)">
                                 <path d="m0 0-22.669-39.264-22.669 39.264h-75.491l98.16-170.02 98.16 170.02z"
@@ -28,7 +28,7 @@
             </div>
 
             <div
-                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl bg-blue rounded-lg hover:text-white transition duration-500 cursor-pointer">
+                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl rounded-lg hover:text-white transition duration-500 cursor-pointer">
 
                 <div class="flex flex-col items-center py-10">
                     <svg class="w-24 h-24 mb-3 bg-white rounded-full shadow-lg" preserveAspectRatio="xMidYMid"
@@ -48,7 +48,7 @@
             </div>
 
             <div
-                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl bg-blue rounded-lg hover:text-white transition duration-500 cursor-pointer">
+                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl rounded-lg hover:text-white transition duration-500 cursor-pointer">
 
                 <div class="flex flex-col items-center py-10">
                     <svg class="w-24 h-24 mb-3 bg-white rounded-full shadow-lg" viewBox="0 0 32 32" version="1.1"
@@ -64,7 +64,7 @@
             </div>
 
             <div
-                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl bg-blue rounded-lg hover:text-white transition duration-500 cursor-pointer">
+                class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl rounded-lg hover:text-white transition duration-500 cursor-pointer">
 
                 <div class="flex flex-col items-center py-10">
                     <svg class="w-24 h-24 mb-3 bg-white rounded-full shadow-lg" viewBox="0 0 48 48" id="Layer_2"

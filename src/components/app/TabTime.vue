@@ -9,7 +9,7 @@ import CV from "../../components/app/CV.vue";
 </script>
 
 <template>
-    <div id="lebenslauf" class="container">
+    <div id="lebenslauf" class="container mx-auto">
         <h1 class="
       pt-24
       pb-8

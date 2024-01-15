@@ -28,10 +28,11 @@ const showMobileMenu = ref(true);
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 shadow-sm">
+  <header class=" sticky top-0 z-50 shadow-sm">
+    <div class="container mx-auto">
     <!--desktop menu-->
     <div class="bg-white">
-      <div class="max-w-1xl mx-auto">
+      <div >
         <div class="flex justify-left">
           <!--menu-->
           <div class="flex md:space-x-1 2xl:space-x-14">
@@ -161,5 +162,6 @@ const showMobileMenu = ref(true);
         </select>
       </div>
     </div>
+  </div>
   </header>
 </template>
