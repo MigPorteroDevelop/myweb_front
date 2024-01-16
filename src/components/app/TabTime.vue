@@ -19,11 +19,13 @@ import CV from "../../components/app/CV.vue";
       font-bold
       text-3xl
       sm:pt-32
-      sm:text-5xl
+      md:text-5xl
       ">
                 {{ $t("impressum.streitschlichtung4") }}
             </h1>
-            <TabView v-model:activeIndex="active">
+            <TabView v-model:activeIndex="active" :pt="{
+                nav: { class: 'flex flex-row justify-center' }
+            }">
                 <TabPanel :header="$t('fullService.dokumentation')" :pt="{
                     header: { class: 'cursor-pointer text-center text-lg text-blue tracking-wide pb-2' }
                 }">
@@ -221,4 +223,3 @@ import CV from "../../components/app/CV.vue";
         </div>
     </div>
 </template>
-

@@ -4,7 +4,7 @@
       class="grid w-full h-full mx-auto overflow-hidden xl:grid-cols-2 xl:w-fit"
     >
       <div class="w-1/2 h-full py-10 mx-auto">
-        <img src="/images/General/error.jpg" />
+        <img class="rounded-[50px]" src="/images/General/error.jpg" />
       </div>
       <div class="w-full h-fit mx-auto my-auto pt-10 pb-20">
         <h1

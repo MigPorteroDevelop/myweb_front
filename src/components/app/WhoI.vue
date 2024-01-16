@@ -19,7 +19,7 @@
                     <p class="text-lg tracking-wide">{{ $t("impressum.haftungInhalte3") }}</p>
                 </div>
                 <div class="py-6 sm:w-1/3">
-                    <img src="/images/General/pc1.jpg" alt="pc1" />
+                    <img src="/images/General/pc.jpg" alt="pc1" />
                 </div>
             </div>
         </div>
