@@ -27,7 +27,7 @@ import CV from "../../components/app/CV.vue";
                 nav: { class: 'flex flex-row justify-center' }
             }">
                 <TabPanel :header="$t('fullService.dokumentation')" :pt="{
-                    header: { class: 'cursor-pointer text-center text-lg text-blue tracking-wide pb-2' }
+                    header: { class: 'cursor-pointer text-center text-lg text-gray hover:text-blue tracking-wide pb-2' }
                 }">
                     <div class="flex items-center justify-center h-full px-4 font-sans">
                         <ol class="border-l border-blue">
@@ -43,17 +43,16 @@ import CV from "../../components/app/CV.vue";
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </div>
-                                    <div
-                                        class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5">
+                                    <div class="mb-10 ml-6 block max-w-md rounded-lg p-6 shadow-md shadow-black/5">
                                         <div class="mb-4 flex justify-between">
                                             <p class="text-sm">
-                                                <b>FullStack {{ $t("home.miguel") }}</b> <br>
+                                                <b class="text-black">FullStack {{ $t("home.miguel") }}</b> <br>
                                                 <em>MST Medien-Systemtechnik GmbH</em>
                                             </p>
                                             <p class="text-sm ">
                                                 11/22 - 12/23</p>
                                         </div>
-                                        <ol class="list-disc mb-6 text-neutral-700 dark:text-neutral-200">
+                                        <ol class="list-disc mb-6">
                                             <p class="pb-5">{{ $t("fullService.möblierung") }}</p>
                                             <li>{{ $t("fullService.möblierungP") }}</li>
                                             <li>{{ $t("verkauf.verkaufView") }}</li>
@@ -76,17 +75,16 @@ import CV from "../../components/app/CV.vue";
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </div>
-                                    <div
-                                        class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5">
+                                    <div class="mb-10 ml-6 block max-w-md rounded-lg p-6 shadow-md shadow-black/5">
                                         <div class="mb-4 flex justify-between">
                                             <p class="text-sm ">
-                                                <b>IT Officer</b> <br>
+                                                <b class="text-black">IT Officer</b> <br>
                                                 <em>FINNOVA (EU)</em>
                                             </p>
                                             <p class="text-sm ">
                                                 09/21 - 03/22</p>
                                         </div>
-                                        <ol class="list-disc mb-6 text-neutral-700 dark:text-neutral-200">
+                                        <ol class="list-disc mb-6">
                                             <li>{{ $t("vermietung.vermietungView2") }}</li>
                                             <li>{{ $t("vermietung.vermietungView3") }}</li>
                                             <li>{{ $t("vermietung.vermietungView4") }}</li>
@@ -114,7 +112,7 @@ import CV from "../../components/app/CV.vue";
                                         class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5">
                                         <div class="mb-4 flex justify-between">
                                             <p class="text-sm ">
-                                                <b>FrontEnd {{ $t("home.miguel") }}</b> <br>
+                                                <b class="text-black">FrontEnd {{ $t("home.miguel") }}</b> <br>
                                                 <em>Ibermática</em>
                                             </p>
                                             <p class="text-sm ">
@@ -133,7 +131,7 @@ import CV from "../../components/app/CV.vue";
                     </div>
                 </TabPanel>
                 <TabPanel :header="$t('fullService.dokumentationP')" :pt="{
-                    header: { class: 'cursor-pointer text-center text-lg text-blue tracking-wide pb-2' }
+                    header: { class: 'cursor-pointer text-center text-lg text-gray hover:text-blue tracking-wide pb-2' }
                 }">
                     <div class="flex items-center justify-center h-full">
                         <ol class="tabpanel border-l border-blue">
@@ -153,7 +151,7 @@ import CV from "../../components/app/CV.vue";
                                         class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5">
                                         <div class="mb-4 flex justify-between">
                                             <p class="text-sm ">
-                                                <b>Web {{ $t("home.miguel") }}</b> <br>
+                                                <b class="text-black">Web {{ $t("home.miguel") }}</b> <br>
                                                 <em>Upgrade Hub - Madrid</em>
                                             </p>
                                             <p class="text-sm ">
@@ -187,17 +185,16 @@ import CV from "../../components/app/CV.vue";
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </div>
-                                    <div
-                                        class="mb-10 ml-6 block max-w-md rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5">
+                                    <div class="mb-10 ml-6 block max-w-md rounded-lg p-6 shadow-md shadow-black/5">
                                         <div class="mb-4 flex justify-between">
                                             <p class="text-sm ">
-                                                <b>Web {{ $t("home.miguel") }}</b> <br>
+                                                <b class="text-black">Web {{ $t("home.miguel") }}</b> <br>
                                                 <em>IFP Madrid - Grupo Planeta</em>
                                             </p>
                                             <p class="text-sm">
                                                 2017 - 2019</p>
                                         </div>
-                                        <ol class="list-disc mb-6 text-neutral-700 dark:text-neutral-200">
+                                        <ol class="list-disc mb-6">
                                             <li class="pb-5">{{ $t("streaming.streamingView2") }}</li>
                                             <li>{{ $t("streaming.streamingView3") }}</li>
                                             <li>{{ $t("streaming.streamingView4") }}</li>
@@ -223,3 +220,10 @@ import CV from "../../components/app/CV.vue";
         </div>
     </div>
 </template>
+
+<style>
+.p-tabview .p-tabview-nav .p-highlight .p-tabview-header-action{
+    border-color: yellow;
+    color: #4d6df7;
+}
+</style>
