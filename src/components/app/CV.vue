@@ -4,12 +4,17 @@ import AtroposComponent from 'atropos/element';
 // register Atropos component
 customElements.define('atropos-component', AtroposComponent);
 
-const pdf1 = 'CV-DE.pdf';
-const pdf2 = 'CV-EN.pdf';
-const route1 = '../../public/documents/CV-DE';
-const route2 = '../../public/documents/CV-EN';
+export default {
+    data() {
+        return {
+            pdf1: 'CV-EN.pdf',
+            pdf2: 'CV-DE.pdf',
+            route1: '/documents/CV-EN',
+            route2: '/documents/CV-DE',
+        };
+    }
+};
 </script>
-
 
 <template>
     <div class="flex flex-col sm:flex-row justify-center items-center space-y-10 sm:space-y-0 sm:space-x-28 py-32">
@@ -17,7 +22,7 @@ const route2 = '../../public/documents/CV-EN';
             <atropos-component shadow-scale="0">
                 <img src="/images/flag-EN.png" />
                 <h1 class="text-lg text-center font-bold pt-6 pb-2">{{ $t("impressum.urheberrecht") }}</h1>
-                <a :href="route2" :download="pdf2" class="
+                <a :href="route1" :download="pdf1" class="
                     block
                     py-2
                     px-4
@@ -27,8 +32,8 @@ const route2 = '../../public/documents/CV-EN';
                     transition
                     duration-300
                     hover:text-blue
-                    cursor-pointer
-                  "><em>{{ $t("impressum.urheberrecht2") }}</em></a>
+                    cursor-pointer">
+                    <em>{{ $t("impressum.urheberrecht2") }}</em></a>
             </atropos-component>
         </div>
         <div class="w-52">
@@ -45,8 +50,8 @@ const route2 = '../../public/documents/CV-EN';
                     transition
                     duration-300
                     hover:text-blue
-                    cursor-pointer
-                  "><em>{{ $t("impressum.urheberrecht2") }}</em></a>
+                    cursor-pointer">
+                    <em>{{ $t("impressum.urheberrecht2") }}</em></a>
             </atropos-component>
         </div>
     </div>
