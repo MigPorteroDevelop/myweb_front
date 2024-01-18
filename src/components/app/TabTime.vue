@@ -222,8 +222,7 @@ import CV from "../../components/app/CV.vue";
 </template>
 
 <style>
-.p-tabview .p-tabview-nav .p-highlight .p-tabview-header-action{
-    border-color: yellow;
+.p-tabview .p-tabview-nav .p-highlight{
     color: #4d6df7;
 }
 </style>

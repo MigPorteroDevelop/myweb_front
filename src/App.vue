@@ -16,14 +16,15 @@ export default {
 </script>
 
 <template>
-  <div >
+  <div>
     <Navbar />
 
     <div>
       <RouterView />
     </div>
-
-    <Footer />
+    <div>
+      <Footer />
+    </div>
     <div class="arrowTop sticky bottom-[60px] collapse md:visible">
       <TopButton />
     </div>

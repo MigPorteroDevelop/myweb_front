@@ -35,12 +35,11 @@ export default {
 <template>
   <div id="kontakt" class="bg-light_blue">
     <div class="container mx-auto">
-      <div class="flex sm:flex-row justify-between align-center pt-32 sm:p-32 flex-col">
-        <div class="pb-8 px-12 sm:w-2/4">
+      <div class="flex flex-col lg:flex-row justify-between align-center pt-32 sm:p-32">
+        <div class="pb-8 px-12 lg:w-2/4">
           <h1 class="
             text-blue
             text-center
-            sm:text-left
             pb-10
             font-bold
             text-3xl
@@ -48,9 +47,8 @@ export default {
               ">
             {{ $t("impressum.haftungLink2") }} <br>
           </h1>
-          <p class="pb-4 text-xl text-center tracking-wide sm:text-left">{{ $t("impressum.haftungLink3") }}</p>
-          <ul class="list-none">
-            <a href="mailto:migporuiz@gmail.com" class="text-blue-500 hover:underline">
+          <p class="pb-4 text-xl text-center tracking-wide lg:text-left">{{ $t("impressum.haftungLink3") }}</p>
+          <a href="mailto:migporuiz@gmail.com" class="hover:text-blue hover:underline">
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="w-6 h-6 mr-2">
@@ -60,11 +58,13 @@ export default {
                 <p>migporuiz@gmail.com</p>
               </li>
             </a>
+          <ul class="list-none">
+            
 
           </ul>
 
         </div>
-        <div class="mx-auto sm:px-12 py-6 sm:w-1/3">
+        <div class="mx-auto sm:px-12 py-6">
           <!--FORM-->
           <form @submit.prevent="processForm" method="POST" class="space-y-4">
             <Input :task="task" />

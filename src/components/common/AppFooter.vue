@@ -5,7 +5,7 @@
         <img src="/images/General/logo_white.svg" />
       </div>
 
-      <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+      <ul class="mt-8 flex justify-center gap-6 md:gap-8">
         <li>
           <a href="https://www.xing.com/profile/Miguel_PorteroRuiz/web_profiles" rel="noreferrer" target="_blank"
             class="text-white">

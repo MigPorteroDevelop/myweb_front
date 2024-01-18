@@ -57,7 +57,7 @@ export default {
       type="text"
       id="name"
       v-model.trim="task.name"
-      class="shadow-2xl border text-sm rounded-lg block w-72 md:w-full p-2.5"
+      class="shadow-2xl border text-sm rounded-lg block w-72 md:w-full p-3"
       required
     />
   </div>
@@ -99,10 +99,10 @@ export default {
         p-3
         w-72
         md:w-full
-        text-sm text-gray-900
+        text-sm 
         bg-gray-50
         rounded-lg
-        border border-gray-300
+        border
         shadow-sm
       "
       required

@@ -6,7 +6,7 @@
             <p class="text-lg text-gray text-center px-4 pb-14">{{ $t("cookies.einfürung2") }}</p>
 
 
-            <div class="flex flex-wrap justify-center items-center space-y-5 sm:space-y-0 sm:space-x-10 px-12 sm:h-fit">
+            <div class="flex flex-wrap gap-4 justify-center">
                 <div
                     class="w-72 max-w-sm bg-white hover:bg-blue shadow-xl hover:shadow-2xl rounded-lg hover:text-white transition duration-500 cursor-pointer">
 
