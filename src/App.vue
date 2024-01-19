@@ -25,7 +25,7 @@ export default {
     <div>
       <Footer />
     </div>
-    <div class="arrowTop sticky bottom-[60px] collapse md:visible">
+    <div class="arrowTop sticky bottom-[60px]">
       <TopButton />
     </div>
   </div>
