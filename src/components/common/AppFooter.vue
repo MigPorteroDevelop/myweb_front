@@ -1,11 +1,7 @@
 <template>
   <footer class="bg-dark_blue">
-    <div class="container mx-auto max-w-5xl px-4 py-16 md:px-6 2xl:px-8">
-      <div class="container max-w-screen-lg mx-auto w-10">
-        <img src="/images/General/logo_white.svg" />
-      </div>
-
-      <ul class="mt-8 flex justify-center gap-6 md:gap-8">
+    <div class="container mx-auto max-w-5xl px-4 py-10">
+      <ul class="flex justify-center gap-10">
         <li>
           <a href="https://www.xing.com/profile/Miguel_PorteroRuiz/web_profiles" rel="noreferrer" target="_blank"
             class="text-white">
@@ -31,7 +27,7 @@
         </li>
       </ul>
     </div>
-    <div class="text-center -mb-16 p-5 bg-dark_blue">
+    <div class="text-center -mb-16 pb-8 bg-dark_blue">
       <span class="text-white">© 2024 Copyright: </span>
       <a class="text-white font-semibold" href="/">Miguel Portero Ruiz</a>
     </div>

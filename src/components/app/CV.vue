@@ -9,9 +9,8 @@ export default {
         return {
             pdf1: 'CV-EN.pdf',
             pdf2: 'CV-DE.pdf',
-            route1: '../../src/assets/documents/CV-EN.pdf',
-            /**Por qué funciona en una carpeta y en la otra no? */
-            route2: '/documents/CV-DE',
+            route1: '/documents/CV-EN.pdf',
+            route2: '/documents/CV-DE.pdf',
         };
     }
 };
