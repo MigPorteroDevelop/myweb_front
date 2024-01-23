@@ -2,6 +2,9 @@
     <div id="whoi" class="bg-light_blue px-6 sm:px-16 lg:w-full lg:h-full xl:h-fit">
         <div class="container mx-auto">
             <div class="flex flex-col lg:flex-row justify-between py-10 lg:py-32">
+                <div class="order-last lg:order-none pt-20 lg:py-0 md:w-2/3 lg:w-1/3 mx-auto lg:mx-0">
+                    <img class="w-full h-auto" src="/images/General/pc.jpg" alt="pc1" />
+                </div>
                 <div class="lg:w-2/4">
                     <h1 class="
                         text-blue
@@ -17,9 +20,6 @@
                     <p class="pb-4 text-lg tracking-wide">{{ $t("impressum.haftungInhalte") }}</p>
                     <p class="pb-4 text-lg tracking-wide">{{ $t("impressum.haftungInhalte2") }}</p>
                     <p class="text-lg tracking-wide">{{ $t("impressum.haftungInhalte3") }}</p>
-                </div>
-                <div class="pt-20 lg:py-0 md:w-2/3 lg:w-1/3 mx-auto lg:mx-0">
-                    <img class="w-full h-auto" src="/images/General/pc.jpg" alt="pc1" />
                 </div>
             </div>
         </div>

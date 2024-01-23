@@ -6,7 +6,8 @@
             drop-shadow-2xl
             lg:flex-row
             py-10
-            lg:py-28
+            lg:py-0
+            lg:pt-28
           ">
         <div class="
             flex flex-col
@@ -17,7 +18,6 @@
             sm:p-16
             lg:py-0 lg:pr-96
             lg:flex-1
-            relative
           ">
           <div>
             <p class="text-blue font-semibold">Hey {{ $t("fullService.edvP") }} 👋 {{ $t("fullService.edv") }}</p>
@@ -31,10 +31,10 @@
             <h2 class="text-gray text-md sm:text-lg md:text-xl"><em>"{{ $t("home.partners") }}"</em></h2>
           </div>
         </div>
-        <div class="flex-1 flex justify-end m-auto lg:mr-0 pb-32 pt-10 md:py-0 w-64 h-64 md:w-96 md:h-96 xl:absolute xl:bottom-0 xl:right-0">
+        <div class="flex-1 flex m-auto">
           <img class="saturate-50 hidden lg:block rounded-tl-[1200px]" src="/images/General/Miguel.jpg"
             alt="miguel_portero" />
-          <img class="saturate-50 visible lg:hidden block rounded-full lg:rounded-none lg:rounded-tl-[1200px]"
+          <img class="saturate-50 visible lg:hidden block rounded-full p-8 lg:rounded-none lg:rounded-tl-[1200px]"
             src="/images/General/Miguel.jpg" alt="miguel_portero" />
         </div>
       </div>

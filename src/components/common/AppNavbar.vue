@@ -38,7 +38,7 @@ const showMobileMenu = ref(true);
 
 <template>
   <header id="header" class="sticky top-0 z-50 w-full shadow bg-white">
-    <div class="container mx-auto pl-8 sm:pl-16">
+    <div class="container mx-auto pl-8 sm:px-0">
       <div class="flex justify-between items-center py-4">
 
         <!-- Logo -->
@@ -57,7 +57,7 @@ const showMobileMenu = ref(true);
         </div>
 
         <!-- Desktop Menu -->
-        <nav class="hidden items-center space-x-4 sm:pr-16 md:flex">
+        <nav class="hidden items-center space-x-4 md:flex">
           <div v-for="item in navigation" :key="item.name" class="cursor-pointer
                   text-black
                   text-bold
