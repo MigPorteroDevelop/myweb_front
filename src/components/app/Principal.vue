@@ -4,21 +4,21 @@
       <div class="
             flex flex-col
             drop-shadow-2xl
-            sm:basis-1/2
-            md:flex-row
-            bg-blue
-            sm:h-1/2
+            lg:flex-row
+            py-10
+            lg:py-28
           ">
         <div class="
-              flex flex-col
-              tracking-wider
-              p-8
-              sm:px-0
-              sm:p-16
-              sm:py-20 sm:pr-20
-              md:flex-1
-              bg-red
-            ">
+            flex flex-col
+            tracking-wider
+            p-8
+            sm:basis-1/2
+            sm:px-0
+            sm:p-16
+            lg:py-0 lg:pr-96
+            lg:flex-1
+            relative
+          ">
           <div>
             <p class="text-blue font-semibold">Hey {{ $t("fullService.edvP") }} 👋 {{ $t("fullService.edv") }}</p>
             <h1 class="text-2xl sm:text-3xl font-semibold md:text-4xl py-4">Miguel Portero</h1>
@@ -31,11 +31,10 @@
             <h2 class="text-gray text-md sm:text-lg md:text-xl"><em>"{{ $t("home.partners") }}"</em></h2>
           </div>
         </div>
-        <div class="flex-1 flex-wrap flex justify-end m-auto pt-12 pb-32 md:py-0 basis-1/12">
-          <img class="saturate-50 hidden lg:block rounded-bl-[1200px]" src="/images/General/Miguel.jpg"
+        <div class="flex-1 flex justify-end m-auto lg:mr-0 pb-32 pt-10 md:py-0 w-64 h-64 md:w-96 md:h-96 xl:absolute xl:bottom-0 xl:right-0">
+          <img class="saturate-50 hidden lg:block rounded-tl-[1200px]" src="/images/General/Miguel.jpg"
             alt="miguel_portero" />
-          <img
-            class="saturate-50 visible lg:hidden block w-72 h-72 rounded-full md:rounded-none md:rounded-tl-[200px] h-full"
+          <img class="saturate-50 visible lg:hidden block rounded-full lg:rounded-none lg:rounded-tl-[1200px]"
             src="/images/General/Miguel.jpg" alt="miguel_portero" />
         </div>
       </div>

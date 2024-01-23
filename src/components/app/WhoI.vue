@@ -1,8 +1,8 @@
 <template>
-    <div id="whoi" class="bg-light_blue px-16 w-full lg:h-full xl:h-fit">
+    <div id="whoi" class="bg-light_blue px-6 sm:px-16 lg:w-full lg:h-full xl:h-fit">
         <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row justify-between py-32">
-                <div class="md:w-2/4">
+            <div class="flex flex-col lg:flex-row justify-between py-10 lg:py-32">
+                <div class="lg:w-2/4">
                     <h1 class="
                         text-blue
                         text-center
@@ -18,8 +18,8 @@
                     <p class="pb-4 text-lg tracking-wide">{{ $t("impressum.haftungInhalte2") }}</p>
                     <p class="text-lg tracking-wide">{{ $t("impressum.haftungInhalte3") }}</p>
                 </div>
-                <div class="py-0 pt-10 md:pt-0 2xl:pt-0 2xl:py-6 my-auto md:my-0 mx-auto md:mx-0 md:w-1/3">
-                    <img src="/images/General/pc.jpg" alt="pc1" />
+                <div class="pt-20 lg:py-0 md:w-2/3 lg:w-1/3 mx-auto lg:mx-0">
+                    <img class="w-full h-auto" src="/images/General/pc.jpg" alt="pc1" />
                 </div>
             </div>
         </div>
