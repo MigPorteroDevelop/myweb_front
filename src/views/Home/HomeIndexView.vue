@@ -1,23 +1,16 @@
-<script>
+<script setup>
 import WhoI from "../../components/app/WhoI.vue";
 import Principal from "../../components/app/Principal.vue";
 import Contact from "../../components/app/Contact.vue";
 import TabTime from "../../components/app/TabTime.vue";
 import MyStack from "../../components/app/MyStack.vue";
-
-export default {
-  components: {
-    WhoI,
-    Principal,
-    Contact,
-    TabTime,
-    MyStack
-  }
-};
+import Navbar from "../../components/common/AppNavbar.vue";
 </script>
 
 <template>
-  <div class="object-fit">
+  <Navbar />
+
+  <div class="container mx-auto">
     <Principal />
 
     <WhoI />

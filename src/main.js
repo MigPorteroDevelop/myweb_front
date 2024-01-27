@@ -10,6 +10,7 @@ import PrimeVue from 'primevue/config';
 import 'atropos/css';
 import 'primevue/resources/themes/lara-light-green/theme.css';
 import 'primevue/resources/primevue.min.css';
+import '@/assets/normalize.css'
 
 
 createApp(App).use(router).use(i18n).use(locales).use(VueSplide).use(VueCookies).use(PrimeVue).mount('#app')

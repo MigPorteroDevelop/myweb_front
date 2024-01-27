@@ -1,24 +1,11 @@
-<script >
-import { RouterLink, RouterView } from "vue-router";
-import Navbar from "./components/common/AppNavbar.vue";
+<script setup>
+import { RouterView } from "vue-router";
 import Footer from "./components/common/AppFooter.vue";
 import TopButton from "./components/common/TopButton.vue";
-
-export default {
-  components: {
-    Navbar,
-    Footer,
-    TopButton,
-    RouterLink,
-    RouterView,
-  },
-};
 </script>
 
 <template>
   <div>
-    <Navbar />
-
     <div>
       <RouterView />
     </div>

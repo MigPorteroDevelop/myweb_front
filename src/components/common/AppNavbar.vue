@@ -1,44 +1,45 @@
 <script setup>
 import { ref } from "vue";
+import { useRoute } from "vue-router";
 
 const smoothScroll = function (anchor) {
-
   let pos = document.querySelector('#' + anchor).offsetTop;
-  const headerHeight = document.querySelector('#header').clientHeight
+  const headerHeight = document.querySelector('#header').clientHeight;
 
   window.scroll({
     top: pos - headerHeight,
     behavior: 'smooth'
   });
+  return false;
+};
 
-  return false
-}
-
-const navigation =
-  [
-    {
-      name: "buttons.verkauf",
-      route: "/#whoi",
-    },
-    {
-      name: "buttons.vermietung",
-      route: "/#lebenslauf",
-    },
-    {
-      name: "buttons.kontakt",
-      route: "/#kontakt",
-    },
-    {
-      name: "buttons.impressum",
-      route: "/projekte",
-    }
-  ];
+const navigation = [
+  {
+    name: "buttons.verkauf",
+    route: "/#whoi",
+  },
+  {
+    name: "buttons.vermietung",
+    route: "/#lebenslauf",
+  },
+  {
+    name: "buttons.kontakt",
+    route: "/#kontakt",
+  },
+  {
+    name: "buttons.impressum",
+    route: "/projekte",
+  }
+];
 const showMobileMenu = ref(true);
+const isHome = function() {
+  return window.location.pathname == '/';
+}
 </script>
 
 <template>
   <header id="header" class="sticky top-0 z-50 w-full shadow bg-white">
-    <div class="container mx-auto pl-8 sm:px-0">
+    <div class="container mx-auto pl-8 sm:pl-16">
       <div class="flex justify-between items-center py-4">
 
         <!-- Logo -->
@@ -57,7 +58,7 @@ const showMobileMenu = ref(true);
         </div>
 
         <!-- Desktop Menu -->
-        <nav class="hidden items-center space-x-4 md:flex">
+        <nav class="hidden items-center space-x-4 sm:pr-16 md:flex">
           <div v-for="item in navigation" :key="item.name" class="cursor-pointer
                   text-black
                   text-bold
@@ -68,9 +69,9 @@ const showMobileMenu = ref(true);
                   py-5
                   px-2">
 
-            <!--Si la ruta está fuera de la home,-->
-            <span v-if="item.route.includes('#') && item.route.includes('/')"
-              @click="smoothScroll(item.route.replace('/', '').replace('#', ''))">{{ $t(item.name) }}</span>
+            <!--Si la ruta está fuera de la home-->
+            <!--Necesitas validar que estás en la home-->
+            <span v-if="item.route.includes('#') && isHome()" @click="smoothScroll(item.route.replace('/', '').replace('#', ''))">{{ $t(item.name) }}</span>
             <a v-else-if="item.route.includes('#')" :href="item.route">{{ $t(item.name) }}</a>
             <router-link v-else :to="item.route">{{ $t(item.name) }}</router-link>
           </div>
