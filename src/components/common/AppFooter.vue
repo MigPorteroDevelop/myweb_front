@@ -1,6 +1,6 @@
 <template>
-  <footer class="flex flex-col items-center bg-dark_blue">
-    <div class="container pt-9">
+  <footer class="flex flex-col items-center bg-dark_blue py-9  relative w-full">
+    <div class="container">
       <div class="mb-9 flex justify-center space-x-5">
         <a href="https://www.xing.com/profile/Miguel_PorteroRuiz/web_profiles" rel="noreferrer" target="_blank">
           <span class="sr-only">Xing</span>
@@ -19,11 +19,12 @@
           </svg>
         </a>
       </div>
-    </div>
-
-    <div class="w-full bg-dark_blue p-4 text-center text-white text-center -mb-16 pb-8 ">
+      <div class="w-full bg-dark_blue p-4 text-center text-white text-center">
       © 2024 Copyright:
       <a class="font-semibold" href="/">Miguel Portero Ruiz</a>
     </div>
+    </div>
+
+    
   </footer>
 </template>

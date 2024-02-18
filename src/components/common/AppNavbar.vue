@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import { useRoute } from "vue-router";
 
 const smoothScroll = function (anchor) {
   let pos = document.querySelector('#' + anchor).offsetTop;
