@@ -20,11 +20,9 @@
         </a>
       </div>
       <div class="w-full bg-dark_blue p-4 text-center text-white text-center">
-      © 2024 Copyright:
-      <a class="font-semibold" href="/">Miguel Portero Ruiz</a>
+        © 2024 Copyright:
+        <a class="font-semibold" href="/">Miguel Portero Ruiz</a>
+      </div>
     </div>
-    </div>
-
-    
   </footer>
 </template>

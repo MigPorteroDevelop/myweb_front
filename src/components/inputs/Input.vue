@@ -1,12 +1,20 @@
 <script>
-import { VueRecaptcha } from "vue-recaptcha";
 import axios from "axios";
-import { BASE_URL } from '@/main.js'; 
+import { BASE_URL } from '@/main.js';
+
+
+async function onClickCaptcha(e) {
+  e.preventDefault();
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6LeDmX4pAAAAAIOBNIit7YtMC0jvrQ08SUHyQRk7', {action: 'submit'}).then(function(token) {
+        return token;
+    });
+  });
+}
 
 export default {
   data() {
     return {
-      recaptchaVerified: false,
       errorMessage: "",
       formDisabled: true,
     };
@@ -14,31 +22,23 @@ export default {
   props: {
     task: Object,
   },
-  components: {
-    VueRecaptcha,
-  },
   methods: {
     handleSuccess(code) {
-      this.recaptchaVerified = true;
       this.errorMessage = "";
 
-      //add response code to the object of email
-      this.task['g-recaptcha-response'] = code;
     },
     async submitForm() {
-      if (this.recaptchaVerified) {        
-        this.$refs.recaptcha.reset();
+      const responseCaptcha = await onClickCaptcha()
+
+      if (responseCaptcha) {
         try {
           const response = await axios.post(
             `${BASE_URL}/api/contact`,
             this.task
           );
-          // console.log(response.data);
-
-        } catch (error) {
-          // console.log(error);
+        } catch {
+          
         }
-        this.recaptchaVerified = false;
       } else {
         this.errorMessage = alert(this.$t("recaptcha.r1"));
 
@@ -50,26 +50,15 @@ export default {
 
 <template>
   <div>
-    <label for="name" class="block mb-2 text-sm font-medium"
-      >Name</label
-    >
-    <input
-      type="text"
-      id="name"
-      v-model.trim="task.name"
-      class="shadow-2xl border text-sm rounded-lg block w-72 md:w-full p-3"
-      required
-    />
+    <label for="name" class="block mb-2 text-sm font-medium">Name</label>
+    <input type="text" id="name" v-model.trim="task.name"
+      class="shadow-2xl border text-sm rounded-lg block w-72 md:w-full p-3" required />
   </div>
   <div>
     <label for="email" class="block mb-2 text-sm font-medium">{{
       $t("home.email")
     }}</label>
-    <input
-      type="email"
-      id="email"
-      v-model.trim="task.email"
-      class="
+    <input type="email" id="email" v-model.trim="task.email" class="
         block
         p-3
         w-72
@@ -79,22 +68,11 @@ export default {
         rounded-lg
         border border-gray-300
         shadow-sm
-      "
-      required
-    />
+      " required />
   </div>
   <div class="md:col-span-2">
-    <label
-      for="message"
-      class="block mb-2 text-sm font-medium"
-      >{{ $t("home.message") }}</label
-    >
-    <textarea
-      type="text"
-      id="message"
-      v-model.trim="task.message"
-      rows="6"
-      class="
+    <label for="message" class="block mb-2 text-sm font-medium">{{ $t("home.message") }}</label>
+    <textarea type="text" id="message" v-model.trim="task.message" rows="6" class="
       block
         p-3
         w-72
@@ -104,11 +82,9 @@ export default {
         rounded-lg
         border
         shadow-sm
-      "
-      required
-    />
+      " required />
   </div>
-  <div class="pt-3 pb-3">
+  <!-- <div class="pt-3 pb-3">
     <VueRecaptcha
       ref="recaptcha"
       sitekey="6Lczw0kpAAAAAHnY5mmgfmbFTdVXIyYUyEW-g6W7"
@@ -116,12 +92,9 @@ export default {
       @verify="handleSuccess"
       @error="handleError"
     />
-  </div>
+  </div>-->
   <div class="pt-3 pb-3">
-    <button
-      @click="submitForm"
-      type="submit"
-      class="
+    <button @click="submitForm" type="submit" class="
         w-36
         text-black
         bg-gradient-to-br
@@ -140,8 +113,7 @@ export default {
         lg:w-36
         md:mx-auto
         xl:ml-0
-      "
-    >
+      ">
       {{ $t("home.send") }}
     </button>
   </div>
