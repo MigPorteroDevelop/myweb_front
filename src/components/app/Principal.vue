@@ -1,5 +1,5 @@
 <template>
-  <div class="px-0 sm:px-16">
+  <div class="">
     <div class="container mx-auto">
       <div class="
             flex flex-col
@@ -7,7 +7,7 @@
             lg:flex-row
             py-10
             lg:py-0
-            lg:pt-28
+            lg:py-28
           ">
         <div class="
             flex flex-col
