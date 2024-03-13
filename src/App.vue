@@ -6,16 +6,14 @@ import TopButton from "./components/common/TopButton.vue";
 
 <template>
   <div>
-    <div>
-      <RouterView />
-    </div>
+    <RouterView />
+  </div>
 
-    <div class="arrowTop sticky left-80 bottom-[70px] mt-2">
-      <TopButton />
-    </div>
-    <div>
-      <Footer />
-    </div>
+  <div class="arrowTop sticky left-80 bottom-[70px] mt-2">
+    <TopButton />
+  </div>
+  <div>
+    <Footer />
   </div>
 </template>
 

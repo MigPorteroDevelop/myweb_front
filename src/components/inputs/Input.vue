@@ -17,7 +17,7 @@ const submitForm = async function () {
   if (responseCaptcha) {
 
     const response = await axios.post(
-      `${BASE_URL}/sendMail.php`,
+      `http://localhost/Send_Mail/sendMail.php`,
       {
         ...form.value,
         captcha: responseCaptcha,
