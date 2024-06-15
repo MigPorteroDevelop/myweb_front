@@ -14,4 +14,4 @@ import '@/assets/normalize.css'
 createApp(App).use(router).use(i18n).use(locales).use(PrimeVue).mount('#app')
 
 // url-base
-export const BASE_URL = 'http://localhost:8000';
+export const BASE_URL = 'https://miguelportero.netlify.app/';

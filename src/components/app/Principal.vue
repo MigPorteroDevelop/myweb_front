@@ -5,7 +5,6 @@
             drop-shadow-2xl
             lg:flex-row
             py-10
-            lg:py-0
             lg:py-28
           ">
       <div class="

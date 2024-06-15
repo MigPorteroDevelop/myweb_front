@@ -61,8 +61,11 @@ const changeCategory = (id) => {
   currentId.value = id;
 
   let filtered = [];
+
   for (const i in projects) {
-    if (projects[i].category.includes(id)) filtered.push(projects[i]);
+    if (projects[i].category.includes(id)) {
+      filtered.push(projects[i]);
+    }
   }
 
   showedProjects.value = filtered;
@@ -109,14 +112,18 @@ const changeCategory = (id) => {
             </h3>
             <div class="cursor-pointer p-1">
               <h3 class="text-sm text-gray-700">
-                <a :href="project.web" target="_blank">
+                <a 
+                  :href="project.web" 
+                  target="_blank">
                   <span aria-hidden="true"></span>
                   Web
                 </a>
               </h3>
             </div>
             <div class="cursor-pointer p-1">
-              <a :href="project.github" rel="noreferrer" target="_blank">
+              <a 
+                :href="project.github" 
+                rel="noreferrer" target="_blank">
                 <span class="sr-only">Github</span>
                 <svg class="h-9 w-9" viewBox="0 0 50 50">
                   <path
@@ -129,7 +136,7 @@ const changeCategory = (id) => {
         </div>
 
         <div v-if="showedProjects.length == 0">
-          <h2>No hay projectos</h2>
+          <h2>No hay proyectos</h2>
         </div>
       </div>
     </div>
