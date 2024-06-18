@@ -1,7 +1,7 @@
 <template>
   <div id="whoi" class="bg-light_blue">
     <div class="container m-auto">
-      <div class="flex flex-col justify-between py-20">
+      <div class="flex flex-col py-20 px-10 lg:px-0">
         <div class="lg:w-2/3 m-auto">
           <h1 class="
            text-blue
