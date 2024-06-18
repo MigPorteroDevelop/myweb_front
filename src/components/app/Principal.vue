@@ -4,24 +4,21 @@
             flex flex-col
             drop-shadow-2xl
             lg:flex-row
-            py-20
+            p-8
+            md:p-20
           ">
       <div class="
             flex flex-col
             tracking-wider
             p-8
-            sm:basis-1/2
-            sm:px-0
-            sm:p-16
-            lg:py-0 lg:pr-96
             lg:flex-1
           ">
-        <div class="m-auto">
+        <div class="m-auto xl:pr-64 text-center lg:text-left">
           <p class="text-blue font-semibold">Hey {{ $t("fullService.edvP") }} 👋 {{ $t("fullService.edv") }}</p>
           <h1 class="text-2xl sm:text-3xl font-semibold md:text-4xl py-4">Miguel Portero</h1>
 
-          <div class="md:text-left">
-            <div class="flex flex-row space-x-2 ">
+          <div class="text-center lg:text-left">
+            <div class="flex flex-row space-x-2 justify-center lg:justify-start">
               <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-gray pb-5">FrontEnd</h2>
               <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-black">{{ $t("home.miguel") }}</h2>
             </div>
@@ -29,10 +26,8 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 flex m-auto">
-        <img class="saturate-50 hidden lg:block rounded-tl-[1200px]" src="/images/General/Miguel.jpg"
-          alt="miguel_portero" />
-        <img class="saturate-50 visible lg:hidden block rounded-full p-8 lg:rounded-none lg:rounded-tl-[1200px]"
+      <div class="flex">
+        <img class="saturate-50 w-64 h-64 md:w-96 md:h-96 rounded-full m-auto"
           src="/images/General/Miguel.jpg" alt="miguel_portero" />
       </div>
     </div>
