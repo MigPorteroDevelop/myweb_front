@@ -35,7 +35,7 @@ export default {
 <template>
   <div id="kontakt" class="bg-light_blue">
     <div class="container mx-auto">
-      <div class="flex flex-col lg:flex-row justify-between py-20">
+      <div class="flex flex-col lg:flex-row justify-between py-20 text-center lg:text-left">
         <div class="pb-8 px-12 lg:w-2/4">
           <h1 class="
             text-blue
@@ -47,8 +47,8 @@ export default {
             {{ $t("impressum.haftungLink2") }} <br>
           </h1>
           <p class="pb-4 text-xl tracking-wide">{{ $t("impressum.haftungLink3") }}</p>
-          <a href="mailto:migporuiz@gmail.com" class="hover:text-blue hover:underline">
-            <li class="flex items-center">
+          <a href="mailto:migporuiz@gmail.com" class="hover:text-blue hover:underline flex justify-center lg:justify-start" target="_blank">
+            <li class="flex">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6 mr-2">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -58,7 +58,7 @@ export default {
             </li>
           </a>
         </div>
-        <div class="mx-auto sm:px-12 py-6">
+        <div class="mx-auto sm:px-12 py-6 w-2/4">
           <!--FORM-->
           <form action="sendMail.php" @submit.prevent="processForm" method="POST" class="space-y-4">
             <Input :task="task" />

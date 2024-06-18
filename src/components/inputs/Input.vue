@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from "vue";
 import axios from "axios";
-import { BASE_URL } from '@/main.js';
 
 const form = ref({});
 
@@ -38,7 +37,7 @@ const submitForm = async function () {
   <div>
     <label for="name" class="block mb-2 text-sm font-medium">Name</label>
     <input type="text" id="name" v-model.trim="form.name"
-      class="shadow-2xl border text-sm rounded-lg block w-72  p-3" required />
+      class="shadow-2xl border text-sm rounded-lg block w-full p-3" required />
   </div>
   <div>
     <label for="email" class="block mb-2 text-sm font-medium">{{
@@ -47,8 +46,7 @@ const submitForm = async function () {
     <input type="email" id="email" v-model.trim="form.email" class="
         block
         p-3
-        w-72
-        md:w-full
+        w-full
         text-sm text-gray-900
         bg-gray-50
         rounded-lg
@@ -61,8 +59,7 @@ const submitForm = async function () {
     <textarea type="text" id="message" v-model.trim="form.message" rows="6" class="
       block
         p-3
-        w-72
-        md:w-full
+        w-full
         text-sm 
         bg-gray-50
         rounded-lg
@@ -70,18 +67,9 @@ const submitForm = async function () {
         shadow-sm
       " required />
   </div>
-  <!-- <div class="pt-3 pb-3">
-    <VueRecaptcha
-      ref="recaptcha"
-      sitekey="6Lczw0kpAAAAAHnY5mmgfmbFTdVXIyYUyEW-g6W7"
-      :load-recaptcha-script="true"
-      @verify="handleSuccess"
-      @error="handleError"
-    />
-  </div>-->
   <div class="pt-3 pb-3">
     <button @click="submitForm" type="submit" class="
-        w-36
+        w-full
         text-black
         bg-gradient-to-br
         from-blue
@@ -93,12 +81,7 @@ const submitForm = async function () {
         text-sm
         px-5
         py-2.5
-        ml-[75px]
         text-center
-        md:w-full
-        lg:w-36
-        md:mx-auto
-        xl:ml-0
       ">
       {{ $t("home.send") }}
     </button>

@@ -42,7 +42,7 @@
         </a>
       </div>
       <div class="w-full bg-dark_blue p-4 text-center text-white">
-        © 2024 Copyright:
+        © 2024 -
         <a class="font-semibold" href="/">Miguel Portero Ruiz</a>
       </div>
     </div>
