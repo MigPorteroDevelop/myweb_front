@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="py-32">
+    <div class="py-20">
       <h2 class="text-xl font-bold text-center text-blue">{{ $t("cookies.einfürung") }}</h2>
       <h1 class="text-4xl font-bold text-center py-2">{{ $t("cookies.oktober") }}</h1>
       <p class="text-lg text-gray text-center px-4 pb-14">{{ $t("cookies.einfürung2") }}</p>

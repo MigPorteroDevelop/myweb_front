@@ -4,9 +4,7 @@
             flex flex-col
             drop-shadow-2xl
             lg:flex-row
-            py-10
-            lg:py-28
-            
+            py-20
           ">
       <div class="
             flex flex-col
@@ -15,7 +13,7 @@
             sm:basis-1/2
             sm:px-0
             sm:p-16
-            lg:py-0 lg:pr-72
+            lg:py-0 lg:pr-96
             lg:flex-1
           ">
         <div class="m-auto">

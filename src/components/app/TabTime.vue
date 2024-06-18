@@ -12,7 +12,7 @@ import CV from "../../components/app/CV.vue";
     <div class="container mx-auto">
         <div id="lebenslauf">
             <h1 class="
-      pt-32
+      py-20
       text-blue
       pb-8
       text-center
