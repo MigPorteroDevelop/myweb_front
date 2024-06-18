@@ -6,6 +6,7 @@
             lg:flex-row
             py-10
             lg:py-28
+            
           ">
       <div class="
             flex flex-col
@@ -14,19 +15,20 @@
             sm:basis-1/2
             sm:px-0
             sm:p-16
-            lg:py-0 lg:pr-96
+            lg:py-0 lg:pr-72
             lg:flex-1
           ">
-        <div>
+        <div class="m-auto">
           <p class="text-blue font-semibold">Hey {{ $t("fullService.edvP") }} 👋 {{ $t("fullService.edv") }}</p>
           <h1 class="text-2xl sm:text-3xl font-semibold md:text-4xl py-4">Miguel Portero</h1>
-        </div>
-        <div class="md:text-left">
-          <div class="flex flex-row space-x-2 ">
-            <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-gray pb-5">FrontEnd</h2>
-            <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-black">{{ $t("home.miguel") }}</h2>
+
+          <div class="md:text-left">
+            <div class="flex flex-row space-x-2 ">
+              <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-gray pb-5">FrontEnd</h2>
+              <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-black">{{ $t("home.miguel") }}</h2>
+            </div>
+            <h2 class="text-gray text-md sm:text-lg md:text-xl"><em>"{{ $t("home.partners") }}"</em></h2>
           </div>
-          <h2 class="text-gray text-md sm:text-lg md:text-xl"><em>"{{ $t("home.partners") }}"</em></h2>
         </div>
       </div>
       <div class="flex-1 flex m-auto">

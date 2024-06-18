@@ -29,7 +29,7 @@ export default defineComponent({
 
 
 <template>
-  <div ref="scrollTopButton" class="sticky flex justify-end mr-2 sm:mr-5">
+  <div ref="scrollTopButton">
     <button @click="scrollToTop" type="button">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
         class="h-8 sm:h-16 stroke-blue">

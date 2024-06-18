@@ -9,7 +9,7 @@ import TopButton from "./components/common/TopButton.vue";
     <RouterView />
   </div>
 
-  <div class="arrowTop sticky left-80 bottom-[70px] mt-2">
+  <div class="arrowTop sticky bottom-[80px]">
     <TopButton />
   </div>
   <div>
@@ -26,6 +26,7 @@ body {
 }
 
 .arrowTop {
-  z-index: 100;
+  z-index: 1000;
+  float: right;
 }
 </style>

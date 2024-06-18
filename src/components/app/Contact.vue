@@ -35,7 +35,7 @@ export default {
 <template>
   <div id="kontakt" class="bg-light_blue">
     <div class="container mx-auto">
-      <div class="flex flex-col lg:flex-row justify-between pt-32 sm:p-32">
+      <div class="flex flex-col lg:flex-row justify-between py-32">
         <div class="pb-8 px-12 lg:w-2/4">
           <h1 class="
             text-blue

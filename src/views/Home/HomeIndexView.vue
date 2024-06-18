@@ -10,7 +10,7 @@ import Navbar from "../../components/common/AppNavbar.vue";
 <template>
   <Navbar />
 
-  <div class="container mx-auto">
+  <div class="mx-auto">
     <Principal />
 
     <WhoI />

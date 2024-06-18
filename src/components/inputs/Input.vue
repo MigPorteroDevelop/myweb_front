@@ -32,25 +32,13 @@ const submitForm = async function () {
 
   }
 };
-
-// ejemplo de php a validar
-// $_POST['name']
-// $_POST['email']
-// $_POST['message']
-
-
-// echo json_encode([
-//   'response'=> false,
-//   'messageRespose'=> 'El mail no es valido'
-// ]);
-
 </script>
 
 <template>
   <div>
     <label for="name" class="block mb-2 text-sm font-medium">Name</label>
     <input type="text" id="name" v-model.trim="form.name"
-      class="shadow-2xl border text-sm rounded-lg block w-72 md:w-full p-3" required />
+      class="shadow-2xl border text-sm rounded-lg block w-72  p-3" required />
   </div>
   <div>
     <label for="email" class="block mb-2 text-sm font-medium">{{
