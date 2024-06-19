@@ -98,7 +98,8 @@ const changeCategory = (id) => {
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <div class="flex md:flex-wrap justify-center space-x-0 md:space-x-12 text-xl mb-10">
         <button v-for="category in categories" :key="category.id" :class="{ 'font-bold': currentId === category.id }"
-          @click="changeCategory(category.id)" class="p-4 font-medium hover:uppercase hover:bg-softBlue hover:rounded-md">
+          @click="changeCategory(category.id)"
+          class="p-4 font-medium hover:uppercase hover:bg-softBlue hover:rounded-md">
           {{ category.category }}
         </button>
       </div>
@@ -140,6 +141,9 @@ const changeCategory = (id) => {
               </div>
             </div>
           </div>
+        </div>
+        <div v-if="showedProjects.length == 0">
+          <h2 class="uppercase text-xl">{{ $t("header.verkaufH") }}</h2>
         </div>
       </div>
     </div>
