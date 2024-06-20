@@ -2,7 +2,7 @@ export const db = [
   {
     id: 1,
     name: "Coffee Ecommerce",
-    imageSrc:"images/projectImages/coffee.jpeg",
+    imageSrc:"images/projectImages/coffee.png",
     imageAlt: "dream-coffee",
     web: "https://dream-coffee.netlify.app/",
     github: "https://github.com/MigPorteroDevelop/Coffee-Ecommerce",
@@ -11,7 +11,7 @@ export const db = [
   {
     id: 2,
     name: "Psychology patients",
-    imageSrc: "images/projectImages/psychology.jpeg",
+    imageSrc: "images/projectImages/psychology.png",
     imageAlt: "psychology-patients",
     web: "https://psychology-patients.netlify.app/",
     github: "https://github.com/MigPorteroDevelop/Psychology-patients",
@@ -24,7 +24,7 @@ export const db = [
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "dream-guitar",
     web: "https://silly-druid-8f86ca.netlify.app/",
-    github: "https://github.com/MigPorteroDevelop/Guitar-Ecommerce",
+    github: "",
     category: [3, 2],
   },
   {
