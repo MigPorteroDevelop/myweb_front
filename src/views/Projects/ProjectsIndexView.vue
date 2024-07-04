@@ -18,28 +18,24 @@ const categories = [
   }
 ];
 
-const projects = ref([]);
+const projects = db;
 
 const showedProjects = ref(projects);
 const currentId = ref(null);
 
 const changeCategory = (id) => {
   currentId.value = id;
-
+  
   let filtered = [];
 
-  for (const i in projects.value) {
-    if (projects.value[i].category.includes(id)) {
-      filtered.push(projects.value[i]);
+  for (const i in projects) {
+    if (projects[i].category.includes(id)) {
+      filtered.push(projects[i]);
     }
   }
 
   showedProjects.value = filtered;
 };
-
-onMounted(() => {
-  projects.value = db;
-})
 </script>
 
 <template>
