@@ -1,24 +1,11 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import Navbar from "../../components/common/AppNavbar.vue";
-import { db } from "../../data/projects.js";
+import { dbProjects } from "../../data/projects.js";
+import { dbCategories } from "../../data/categories.js";
 
-const categories = [
-  {
-    id: 1,
-    category: "Vue",
-  },
-  {
-    id: 2,
-    category: "React",
-  },
-  {
-    id: 3,
-    category: "Wordpress",
-  }
-];
-
-const projects = db;
+const categories = dbCategories;
+const projects = dbProjects;
 
 const showedProjects = ref(projects);
 const currentId = ref(null);
@@ -50,8 +37,8 @@ const changeCategory = (id) => {
           {{ category.category }}
         </button>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-16">
-        <div v-for="project in showedProjects" :key="project.id" class="col-span-1">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-16 ">
+        <div v-for="project in showedProjects" :key="project.id" class="col-span-1 justify-center">
           <div class="shadow-xl p-2">
             <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
               <img :src="project.imageSrc" :alt="project.imageAlt"

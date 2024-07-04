@@ -17,12 +17,6 @@
           <p class="pb-4 text-lg tracking-wide">{{ $t("impressum.haftungInhalte2") }}</p>
           <p class="text-lg tracking-wide">{{ $t("impressum.haftungInhalte3") }}</p>
         </div>
-
-        <!--
-                <div class="order-last lg:order-none w-fit h-96 mx-auto my-12 ">
-                    <img class="w-full h-full"  src="/images/General/pc.jpg" alt="pc1" />
-                </div>
-                -->
       </div>
     </div>
   </div>

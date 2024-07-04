@@ -1,4 +1,4 @@
-export const db = [
+export const dbProjects = [
   {
     id: 1,
     name: "Coffee Ecommerce",
