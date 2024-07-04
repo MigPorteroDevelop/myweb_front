@@ -3,6 +3,7 @@ import { ref } from "vue";
 import axios from "axios";
 
 const form = ref({});
+const isSent = ref(false);
 
 const onClickCaptcha = async function () {
   return grecaptcha.execute('6LeDmX4pAAAAAIOBNIit7YtMC0jvrQ08SUHyQRk7', { action: 'submit' }).then(function (token) {
@@ -26,7 +27,7 @@ const submitForm = async function () {
     console.log(response);
 
     if (!response.response) {
-      alert(response.messageResponse)
+      isSent.value = true;
     }
 
   }
@@ -68,7 +69,7 @@ const submitForm = async function () {
       " required />
   </div>
   <div class="pt-3 pb-3">
-    <button @click="submitForm" type="submit" class="
+    <button v-if="!isSent" @click="submitForm" type="submit" class="
         w-full
         text-black
         bg-gradient-to-br
@@ -85,5 +86,6 @@ const submitForm = async function () {
       ">
       {{ $t("home.send") }}
     </button>
+    <p v-else>Thanks for your email.</p>
   </div>
 </template>
