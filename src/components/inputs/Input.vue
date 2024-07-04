@@ -86,6 +86,6 @@ const submitForm = async function () {
       ">
       {{ $t("home.send") }}
     </button>
-    <p v-else>Thanks for your email.</p>
+    <p v-else>{{ $t("footer.philosophy") }}</p>
   </div>
 </template>
