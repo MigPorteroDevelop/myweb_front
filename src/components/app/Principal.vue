@@ -1,3 +1,15 @@
+<script setup>
+import { ref, onMounted } from 'vue';
+
+const isVisible = ref(false);
+
+onMounted(() => {
+  setTimeout(() => {
+    isVisible.value = true;
+  }, 400);
+});
+</script>
+
 <template>
   <div class="container mx-auto">
     <div class="
@@ -26,10 +38,22 @@
           </div>
         </div>
       </div>
-      <div class="flex">
+      <div 
+        :class="['imagePrincipal', { visible: isVisible }]" 
+        class="flex opacity-0"
+      >
         <img class="saturate-50 w-64 h-64 md:w-96 md:h-96 rounded-full m-auto"
           src="/images/General/Miguel.jpg" alt="miguel_portero" />
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+  .imagePrincipal {
+    transition: opacity 1.5s ease-in;
+}
+  .imagePrincipal.visible {
+    opacity: 1;
+}
+</style>
