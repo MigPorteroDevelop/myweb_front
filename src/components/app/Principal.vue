@@ -31,7 +31,7 @@ onMounted(() => {
 
           <div class="text-center lg:text-left">
             <div class="flex flex-row space-x-2 justify-center lg:justify-start">
-              <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-gray pb-5">FrontEnd</h2>
+              <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-gray pb-5">Web</h2>
               <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-medium text-black">{{ $t("home.miguel") }}</h2>
             </div>
             <h2 class="text-gray text-md sm:text-lg md:text-xl"><em>"{{ $t("home.partners") }}"</em></h2>
